@@ -33,11 +33,6 @@
     @keyframes pulsa { 50% { opacity: .35; } }
     h1 { margin: 1rem 0 .7rem; font-size: clamp(1.9rem, 7vw, 2.5rem); line-height: 1.12; letter-spacing: -.02em; }
     .sotto { margin: 0 auto; max-width: 30rem; color: var(--tenue); font-size: 1.02rem; }
-    .tipi { display: grid; gap: .6rem; margin: 2rem 0; text-align: left; }
-    .tipo { display: flex; gap: .9rem; align-items: center; padding: .85rem 1rem; border: 1px solid var(--bordo); border-radius: 14px; background: var(--carta); }
-    .tipo svg { flex: none; width: 26px; height: 26px; color: var(--testo); }
-    .tipo strong { display: block; font-size: .98rem; }
-    .tipo span { display: block; color: var(--tenue); font-size: .85rem; }
     .lista { margin: 2.2rem 0 0; padding: 1.4rem 1.2rem; border: 1px solid var(--bordo); border-radius: 18px; background: var(--carta); text-align: left; }
     .lista h2 { margin: 0 0 .3rem; font-size: 1.15rem; }
     .lista p { margin: 0 0 1rem; color: var(--tenue); font-size: .9rem; }
@@ -71,21 +66,6 @@
   <span class="arriva">L'app sta arrivando</span>
   <h1>Misteri, teorie e notizie strane. Le indaghi tu.</h1>
   <p class="sotto">Su Veritas sei tu a portare gli indizi, proporre le ipotesi e decidere con un voto se ci credi o no. Con le prove, senza dare niente per scontato.</p>
-
-  <div class="tipi">
-    <div class="tipo">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 1 4 10.5c-.7.7-1 1.4-1 2.5H9c0-1.1-.3-1.8-1-2.5A6 6 0 0 1 12 3z"/></svg>
-      <div><strong>Ipotesi</strong><span>Cosa sostieni, su quali fatti e cosa ti farebbe cambiare idea</span></div>
-    </div>
-    <div class="tipo">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/></svg>
-      <div><strong>Indizio</strong><span>Una foto o un link di qualcosa che hai trovato</span></div>
-    </div>
-    <div class="tipo">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 20V10M12 20V4M19 20v-7"/></svg>
-      <div><strong>Domanda</strong><span>Un sondaggio per sentire cosa ne pensa la community</span></div>
-    </div>
-  </div>
 
   <section class="lista" id="lista">
     <h2>Entra tra i primi</h2>
