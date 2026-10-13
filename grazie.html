@@ -16,8 +16,9 @@
     img { width: 80px; height: auto; margin: 0 auto 1.5rem; }
     h1 { margin: 0 0 .6rem; font-size: 1.8rem; line-height: 1.15; }
     p { margin: 0 auto; max-width: 26rem; color: #9aa3b2; }
-    .social { display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem; margin-top: 2rem; }
-    .social a { padding: .55rem 1rem; border: 1px solid #262c38; border-radius: 999px; color: #f3f0ea; font-weight: 700; font-size: .9rem; text-decoration: none; }
+    .social { display: flex; justify-content: center; gap: .9rem; margin-top: 2rem; }
+    .social a { display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border: 1px solid #262c38; border-radius: 50%; color: #f3f0ea; text-decoration: none; }
+    .social svg { width: 22px; height: 22px; }
     .indietro { margin-top: 2rem; font-size: .85rem; }
     .indietro a { color: #9aa3b2; }
   </style>
@@ -28,10 +29,18 @@
   <h1>Ci sei. Iscrizione confermata ✓</h1>
   <p>Ti avvisiamo appena Veritas apre a tutti. Intanto seguici: lì vedi in anteprima cosa succede.</p>
   <div class="social">
-    <a href="https://www.instagram.com/v3ritas.it/" rel="noopener">Instagram</a>
-    <a href="https://www.tiktok.com/@v3ritas.it" rel="noopener">TikTok</a>
-    <a href="https://www.youtube.com/@v3ritas_it" rel="noopener">YouTube</a>
-    <a href="https://www.facebook.com/profile.php?id=61595565051829" rel="noopener">Facebook</a>
+    <a href="https://www.instagram.com/v3ritas.it/" rel="noopener" aria-label="Instagram" title="Instagram">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+    </a>
+    <a href="https://www.tiktok.com/@v3ritas.it" rel="noopener" aria-label="TikTok" title="TikTok">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 3c.4 2.2 1.8 3.7 4 3.9v3.2a7.4 7.4 0 0 1-4-1.2v6.3a6.2 6.2 0 1 1-6.2-6.2c.3 0 .6 0 .9.1v3.3a3 3 0 1 0 2.1 2.8V3h3.2z"/></svg>
+    </a>
+    <a href="https://www.youtube.com/@v3ritas_it" rel="noopener" aria-label="YouTube" title="YouTube">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.5 7.2a2.8 2.8 0 0 0-2-2C18.8 4.7 12 4.7 12 4.7s-6.8 0-8.5.5a2.8 2.8 0 0 0-2 2A29 29 0 0 0 1 12a29 29 0 0 0 .5 4.8 2.8 2.8 0 0 0 2 2c1.7.5 8.5.5 8.5.5s6.8 0 8.5-.5a2.8 2.8 0 0 0 2-2A29 29 0 0 0 23 12a29 29 0 0 0-.5-4.8zM9.8 15.1V8.9l5.6 3.1-5.6 3.1z"/></svg>
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=61595565051829" rel="noopener" aria-label="Facebook" title="Facebook">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5H16l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8.1v3h2.5V21h2.9z"/></svg>
+    </a>
   </div>
   <p class="indietro"><a href="./">← Torna a v3ritas.it</a></p>
 </main>
